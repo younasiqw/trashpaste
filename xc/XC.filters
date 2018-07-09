@@ -1,0 +1,381 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Hacks">
+      <UniqueIdentifier>{f7eb8eec-cfd9-438d-80f5-bc28ae97c131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Backend">
+      <UniqueIdentifier>{80ef2f2d-4654-416a-8f55-53e5f5175ffd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IMGUI">
+      <UniqueIdentifier>{1a3a27dc-91a6-47aa-bf9f-5b7af74ebf2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menu">
+      <UniqueIdentifier>{ecc404f3-afbd-48fb-9928-2f911c5fa561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Hacks">
+      <UniqueIdentifier>{47001915-14f5-47ae-9933-e5cb706a8871}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Backend">
+      <UniqueIdentifier>{64bd6df1-7e99-4ed0-9129-54110b30ee7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{a0785c7e-4b57-4006-b9ca-3d95e78b64cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{f33238b8-d389-4847-a3d7-962f9c13639d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\other stuff">
+      <UniqueIdentifier>{ba8d6344-f879-46bf-b643-bfa41cecf821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\other stuff">
+      <UniqueIdentifier>{e5289827-6ce5-4535-8c4f-708b765d5858}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Autowall.cpp">
+      <Filter>Source Files\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Chams.cpp">
+      <Filter>Source Files\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="ESP.cpp">
+      <Filter>Source Files\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="GrenadePrediction.cpp">
+      <Filter>Source Files\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="LagComp.cpp">
+      <Filter>Source Files\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="LegitBot.cpp">
+      <Filter>Source Files\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Misc.cpp">
+      <Filter>Source Files\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="RageBot.cpp">
+      <Filter>Source Files\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\examples\directx9_example\imgui_impl_dx9.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui_draw.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui\imgui.cpp">
+      <Filter>IMGUI</Filter>
+    </ClCompile>
+    <ClCompile Include="DLLMain.cpp">
+      <Filter>Source Files\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="Configuration.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="tinyxml2.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="EnginePrediction.cpp">
+      <Filter>Source Files\Hacks</Filter>
+    </ClCompile>
+    <ClCompile Include="Hooks.cpp">
+      <Filter>Source Files\Backend</Filter>
+    </ClCompile>
+    <ClCompile Include="CaviarDreams.cpp">
+      <Filter>Source Files\other stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Global.cpp">
+      <Filter>Source Files\other stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Interfaces.cpp">
+      <Filter>Source Files\other stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="MathFunctions.cpp">
+      <Filter>Source Files\other stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="memesets.cpp">
+      <Filter>Source Files\other stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="MiscFunctions.cpp">
+      <Filter>Source Files\other stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="NetVarManager.cpp">
+      <Filter>Source Files\other stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="recvproxy.cpp">
+      <Filter>Source Files\other stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Render.cpp">
+      <Filter>Source Files\other stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Renderer.cpp">
+      <Filter>Source Files\other stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="SpoofedConvar.cpp">
+      <Filter>Source Files\other stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="Utilities.cpp">
+      <Filter>Source Files\other stuff</Filter>
+    </ClCompile>
+    <ClCompile Include="AutoStrafe.cpp">
+      <Filter>Source Files\Hacks</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Tabs.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\examples\directx9_example\imgui_impl_dx9.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui_internal.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imgui.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\imconfig.h">
+      <Filter>IMGUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Autowall.h">
+      <Filter>Header Files\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Chams.h">
+      <Filter>Header Files\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="ESP.h">
+      <Filter>Header Files\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="LagComp.h">
+      <Filter>Header Files\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="LegitBot.h">
+      <Filter>Header Files\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Misc.h">
+      <Filter>Header Files\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="RageBot.h">
+      <Filter>Header Files\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Resolver.h">
+      <Filter>Header Files\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="SkinChanger.h">
+      <Filter>Header Files\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="Configuration.hpp">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="tinyxml2.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="dropboxes.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Hooks.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="GloveChanger.h">
+      <Filter>Header Files\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseClient.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="bspflags.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="CaviarDreams.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="CommonIncludes.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="CreateMove.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DoPostScreenSpaceEffects.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="DrawModelExecute.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="EngineClient.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="EnginePrediction.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Entities.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="FindMDL.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="FireEventClientSide.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="FrameStageNotify.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="HookIncludes.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="HooksList.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="IDirect3DDevice9.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Interfaces.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="IsConnected.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="IsHltv.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemDefinitions.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Listener.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Materials.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="MathFunctions.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="memesets.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscClasses.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscDefinitions.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="MiscFunctions.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="MovementRecorder.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="NetVarManager.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="OnScreenSizeChanged.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="PaintTraverse.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="OverrideView.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaySound.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="PredictionSystem.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="recvproxy.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Render.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Renderer.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="SDK.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_rect_pack.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_textedit.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui\stb_truetype.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Surface.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="SvCheatsGetBool.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Utilities.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="UtlBuffer.hpp">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="UtlMemory.hpp">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="UtlString.hpp">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="UtlVector.hpp">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="vmthook.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="XorStr.hpp">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Themes.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="GrenadePrediction.h">
+      <Filter>Header Files\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="InPrediction.h">
+      <Filter>Header Files\Hacks</Filter>
+    </ClInclude>
+    <ClInclude Include="AntiLeak.h">
+      <Filter>Header Files\Backend</Filter>
+    </ClInclude>
+    <ClInclude Include="Variables.h">
+      <Filter>Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Logging.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+    <ClInclude Include="Sounds.h">
+      <Filter>Header Files\other stuff</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
